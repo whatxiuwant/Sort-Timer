@@ -1,19 +1,17 @@
 package mspkg;
 import java.util.*;
 
-public class TimingSorts {
+public class Test {
 	
 	public static void main(String[] args) {
-		final int LENGTH = 1000000;
+		final int LENGTH = 100000;
 		int[] a = new int[LENGTH];
 		int[] aSel = new int[LENGTH];
 		int[] aIns = new int[LENGTH];
 		int[] aMer = new int[LENGTH];
-		int num = 0;
-		for (int i = 0; i < LENGTH; i++) {
-			num = (int) (Math.random() * 1001);
-			a[i] = aSel[i] =  aIns[i] = aMer[i];
-		}
+		
+		for (int i = 0; i < LENGTH; i++)
+			a[i] = aSel[i] =  aIns[i] = aMer[i] = (int) (Math.random() * 1001);
 
 		System.out.println("--- Unsorted ---");
 		System.out.println();
@@ -90,7 +88,7 @@ public class TimingSorts {
 		
 		Scanner scan = new Scanner(System.in);
 		start = System.currentTimeMillis();
-		firstNSelection(arr3, scan.nextInt());
+		firstNSelection(a, scan.nextInt());
 		end = System.currentTimeMillis();
 		System.out.println((int) (end - start));
 	}
