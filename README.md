@@ -7,3 +7,13 @@ Randomization: Alphabetical list of all the countries and use a random number ge
 Sample size: 20 countries
 References: https://github.com/fivethirtyeight/data/blob/master/alcohol-consumption/drinks.csv
 Procedure: Linear Regression Model
+150, 58, 171, 67, 144, 24, 70, 7, 96, 130, 60, 176, 136, 13, 172, 125, 133, 134, 56, 163
+Sao Tome & Principe
+Eritrea
+Thailand
+Germany
+Rwanda
+Botswana
+Grenada
+Antigua & Barbuda
+Lebanon
